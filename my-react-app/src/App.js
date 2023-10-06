@@ -35,17 +35,17 @@ function App() {
         <h1>React form</h1>
 
         <div className="Form">
-          <label>Name</label><br></br>
+          <label className='input'>Name</label><br></br>
           <input id="name" type="text" value={name} onChange={(e) => setName(e.target.value)} />
         </div>
 
         <div className="Form">
-          <label>Age</label><br></br>
+          <label className='input'>Age</label><br></br>
           <input id="age" type="number" value={age} onChange={(e) => setAge(e.target.value)} />
         </div>
 
         <div className="Form">
-          <label>Email</label><br></br>
+          <label className='input'>Email</label><br></br>
           <input id="email" type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
         </div>
 
